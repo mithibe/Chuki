@@ -1,0 +1,115 @@
+:root{
+    /* colours */
+    --green: linear-gradient(to right bottom, #0a7a00, #0d9200, #0fac00, #11c500, #13e000);;
+    --red: linear-gradient(to right bottom, #7a0000, #920003, #ac0004, #c60002, #e00000);
+    --blue: linear-gradient(to right bottom, #0c1232, #0e173e, #0f1c4a, #102156, #112663);
+    --paper: #F5F2E8;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+}
+
+.chart{
+    display: flex;
+}
+
+/* styles.css */
+.speech-box {
+    margin-top: 50px;
+    background: var(--paper);
+    width: 80vw;
+    height: 10vh;
+    padding: 20px;
+    border-radius: 20px;
+    transition: height 0.3s ease-in-out;
+    -webkit-transition: height 0.3s ease-in-out;
+    -moz-transition: height 0.3s ease-in-out;
+    -ms-transition: height 0.3s ease-in-out;
+    -o-transition: height 0.3s ease-in-out;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+
+.speech-box:hover {
+    width: 80vw;
+    height:20vh;
+    outline: none;
+}
+
+.speech-box:focus:hover {
+    width: 80vw;
+    height:80vh;
+    outline: none;
+}
+
+button{
+    height: 50px;
+    width: 200px;
+    border: solid 2px #000;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.controls{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.prediction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: var(--paper);
+    width: 300px;
+    border: solid 3px #000;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.results{
+    width: 80vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.green{
+    background: var(--green);
+    color: #fff;
+}
+.blue{
+    background: var(--blue);
+    color: #fff;
+}
+.red{
+    background: var(--red);
+    color: #fff;
+}
+
+.speech-box:focus {
+    position: relative;
+    width: 80vw;
+    height:80vh;
+    outline: none;
+}

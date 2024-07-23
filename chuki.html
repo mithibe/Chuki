@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuki-Analyzer</title>
+    <link rel="stylesheet" href="chuki.css">
+    <script src="loadNavbar.js" defer></script>
+    <script src="chart.js" defer></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script> -->
+</head>
+<body>
+    <div id="navbar-placeholder"></div>
+    <main>
+        <input type="text" name="speech-box" id="speech-box" class="speech-box">
+    <!-- <button>Analyze</button> -->
+    <div class="results">
+        <div class="chart" id="chart1">
+            <div>
+                <canvas id="myChart"></canvas>
+              </div>
+              
+              <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+        </div>
+        <!-- <div class="chart" id="chart2"></div> -->
+        <div class="prediction">
+            <span class="title">Prediction</span>
+            <span class="verdict">Hate</span>
+        </div>
+    </div>
+    <div class="controls">
+        <button class="green">New Speech</button>
+        <button class="blue">Refresh</button>
+        <button class="red">Delete</button>
+    </div>
+    </main>
+</body>
+</html>
