@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="chuki.css">
     <script src="loadNavbar.js" defer></script>
     <script src="chart.js" defer></script>
+    <script src="speechbox.js" defer></script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script> -->
 </head>
 <body>
     <div id="navbar-placeholder"></div>
     <main>
-        <input type="text" name="speech-box" id="speech-box" class="speech-box">
+        <textarea type="text" name="speech-box" id="speech-box" class="speech-box" placeholder="Enter your Speech..."></textarea>
     <!-- <button>Analyze</button> -->
     <div class="results">
         <div class="chart" id="chart1">
@@ -31,7 +32,7 @@
     </div>
     <div class="controls">
         <button class="green">New Speech</button>
-        <button class="blue">Refresh</button>
+        <button class="blue">Predict</button>
         <button class="red">Delete</button>
     </div>
     </main>

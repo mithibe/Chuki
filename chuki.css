@@ -15,7 +15,7 @@ main{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 90vh;
+    /* height: 90vh; */
 }
 
 .chart{
@@ -24,7 +24,7 @@ main{
 
 /* styles.css */
 .speech-box {
-    margin-top: 50px;
+    margin: 50px 0 ;
     background: var(--paper);
     width: 80vw;
     height: 10vh;
@@ -43,7 +43,7 @@ main{
 
 
 
-.speech-box:hover {
+/* .speech-box:hover {
     width: 80vw;
     height:20vh;
     outline: none;
@@ -51,9 +51,9 @@ main{
 
 .speech-box:focus:hover {
     width: 80vw;
-    height:80vh;
+    height:70vh;
     outline: none;
-}
+} */
 
 button{
     height: 50px;
@@ -67,9 +67,13 @@ button{
 }
 
 .controls{
+    background: var(--paper);
     width: 100vw;
+    padding: 10px;
     display: flex;
     justify-content: space-evenly;
+    position: fixed;
+    bottom: 0;
 }
 
 .prediction{
@@ -107,9 +111,17 @@ button{
     color: #fff;
 }
 
-.speech-box:focus {
+/* .speech-box:focus {
     position: relative;
     width: 80vw;
-    height:80vh;
+    height:70vh;
     outline: none;
-}
+} */
+
+textarea {
+    width: 300px;     /* Set the width of the textarea */
+    min-height: 50px; /* Set a minimum height */
+    overflow: hidden; /* Prevent scrollbar */
+    resize: none;     /* Disable manual resize */
+  }
+  

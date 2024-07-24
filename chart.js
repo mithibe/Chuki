@@ -8,8 +8,8 @@ const data = {
     label: 'Hate Speech analysis',
     data: [75, 25],
     backgroundColor: [
-      '#070',
-      '#700'
+      '#050',
+      '#a00'
     ],
     hoverOffset: 4
   }]

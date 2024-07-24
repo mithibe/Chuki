@@ -10,6 +10,7 @@
 body {
     font-family: Arial, sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -58,7 +59,7 @@ body {
 .form-content input {
     margin-bottom: 10px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #333;
     border-radius: 3px;
 }
 
@@ -83,3 +84,13 @@ input[type='submit']{
     background: var(--blue);
     color: #fff;
 }
+
+
+input.invalid {
+    border: 2px solid red; /* Red border for invalid input */
+  }
+  
+  input.valid {
+    border: 2px solid green; /* Green border for valid input */
+  }
+  
