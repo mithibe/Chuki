@@ -98,6 +98,13 @@ button{
     justify-content: space-between;
 }
 
+@media (max-width:768px) {
+    .results{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .green{
     background: var(--green);
     color: #fff;
