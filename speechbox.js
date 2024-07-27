@@ -22,3 +22,7 @@ document.addEventListener('focus', function (event) {
   document.getElementById('predict').addEventListener('click', function() {
     document.getElementById('myForm').submit();
 });
+
+document.getElementById('delete-speech').addEventListener('click', function() {
+  document.getElementById('speech-box').value = '';
+});
