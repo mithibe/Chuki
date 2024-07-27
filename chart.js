@@ -1,4 +1,3 @@
-
 const data = {
     labels: [
     'Non-hate',
@@ -6,7 +5,7 @@ const data = {
   ],
   datasets: [{
     label: 'Hate Speech analysis',
-    data: [75, 25],
+    data: [6200, 156],
     backgroundColor: [
       '#050',
       '#a00'

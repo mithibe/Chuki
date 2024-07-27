@@ -1,21 +1,21 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const signupForm = document.getElementById('signup-form');
-    const loginForm = document.getElementById('login-form');
-    const switchToLogin = document.getElementById('switch-to-login');
-    const switchToSignup = document.getElementById('switch-to-signup');
+// document.addEventListener('DOMContentLoaded', function() {
+//     const signupForm = document.getElementById('signup-form');
+//     const loginForm = document.getElementById('login-form');
+//     const switchToLogin = document.getElementById('switch-to-login');
+//     const switchToSignup = document.getElementById('switch-to-signup');
 
-    switchToLogin.addEventListener('click', function(e) {
-        e.preventDefault();
-        signupForm.classList.add('hidden');
-        loginForm.classList.remove('hidden');
-    });
+//     switchToLogin.addEventListener('click', function(e) {
+//         e.preventDefault();
+//         signupForm.classList.add('hidden');
+//         loginForm.classList.remove('hidden');
+//     });
 
-    switchToSignup.addEventListener('click', function(e) {
-        e.preventDefault();
-        loginForm.classList.add('hidden');
-        signupForm.classList.remove('hidden');
-    });
-});
+//     switchToSignup.addEventListener('click', function(e) {
+//         e.preventDefault();
+//         loginForm.classList.add('hidden');
+//         signupForm.classList.remove('hidden');
+//     });
+// });
 
 // Select the password and confirm password input fields
 var passwordInput = document.getElementById('signup-password');
