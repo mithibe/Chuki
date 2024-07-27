@@ -13,7 +13,9 @@
 <body>
     <div id="navbar-placeholder"></div>
     <main>
-        <textarea type="text" name="speech-box" id="speech-box" class="speech-box" placeholder="Enter your Speech..."></textarea>
+        <form action="" method="post" id="myForm">
+            <textarea type="text" name="speech-box" id="speech-box" class="speech-box" placeholder="Enter your Speech..."></textarea>
+        </form>
     <!-- <button>Analyze</button> -->
     <div class="results">
         <div class="chart" id="chart1">
@@ -32,7 +34,7 @@
     </div>
     <div class="controls">
         <button class="green">New Speech</button>
-        <button class="blue">Predict</button>
+        <button class="blue" id="predict">Predict</button>
         <button class="red">Delete</button>
     </div>
     </main>

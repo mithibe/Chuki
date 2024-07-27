@@ -18,3 +18,7 @@ document.addEventListener('focus', function (event) {
     textarea.style.height = textarea.scrollHeight + 'px'; // Set the height to scroll height
   }
   
+
+  document.getElementById('predict').addEventListener('click', function() {
+    document.getElementById('myForm').submit();
+});
